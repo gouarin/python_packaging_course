@@ -1,0 +1,3 @@
+#recursive-include calculator *.txt
+#include calculator/*.txt
+global-include *.txt
