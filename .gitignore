@@ -1,0 +1,10 @@
+build
+_build
+.cache
+dist
+.ipynb_checkpoints
+__pycache__
+*~
+Untitled.ipynb
+*.egg-info
+output/
