@@ -1,0 +1,16 @@
+name: packaging-environment
+channels:
+  - conda-forge
+  - damianavila82
+dependencies:
+  - python=3.6
+  - numpy
+  - matplotlib
+  - sphinx
+  - nbsphinx
+  - rise
+  - pip:
+    - pytest
+    - pylint
+    - pytest-cov
+    - pytest-pylint
