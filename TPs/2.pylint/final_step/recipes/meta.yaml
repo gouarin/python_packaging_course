@@ -1,0 +1,39 @@
+{% set data = load_setup_py_data() %}
+
+package:
+  name: splinart
+  version: {{ data.get('version') }}
+
+source:
+  path: ../
+
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - numpy
+    - matplotlib
+    - six
+
+test:
+  imports:
+    - splinart
+
+about:
+  home: http://github.com/gouarin/splinart
+  license: BSD
+  license_family: BSD
+  license_file: ''
+  summary: 'spline art generator'
+  description: 'spline art generator'
+  doc_url: ''
+  dev_url: ''
+
+extra:
+  recipe-maintainers: 'loic.gouarin@gmail.com'
