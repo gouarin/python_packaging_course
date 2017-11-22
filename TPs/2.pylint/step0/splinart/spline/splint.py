@@ -1,8 +1,8 @@
-from __future__ import print_function, division, absolute_import
 # Author:
 #     Loic Gouarin <loic.gouarin@gmail.com>
 #
 # License: BSD 3 clause
+from __future__ import print_function, division, absolute_import
 import numpy as np
 
 def splint(xa, ya, y2a, x, y):

@@ -27,8 +27,8 @@ name = "splinart"
 
 MAJOR = 0
 MINOR = 1
-MAINTENANCE = 2
-VERSION = "{}.{}.{}".format(MAJOR, MINOR, MAINTENANCE)
+PATCH = 2
+VERSION = "{}.{}.{}".format(MAJOR, MINOR, PATCH)
 
 with open("splinart/version.py", "w") as f:
     f.write("__version__ = '{}'\n".format(VERSION))

@@ -1,5 +1,4 @@
 import numpy as np
-from six.moves import range
 import splinart as spl
 
 img_size, channels = 1000, 4
