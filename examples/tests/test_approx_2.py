@@ -6,7 +6,7 @@ from pytest import approx
 def ones_array(shape):
     return np.ones(shape)
 
-@pytest.fixture(params=[(3,2), 5, (5, 4, 3)])
+@pytest.fixture(params=[5, (3,2), (5, 4, 3)])
 def init_array(request):
     return ones_array(request.param)
     

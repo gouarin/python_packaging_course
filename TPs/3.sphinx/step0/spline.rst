@@ -41,7 +41,7 @@ with
     d_i = \frac{6}{x_{i+1}-x_{i-1}}\left(\frac{y_{i+1}-y_{i}}{x_{i+1}-x_{i}}-\frac{y_{i}-y_{i-1}}{x_{i}-x_{i-1}}\right).
     \end{array}
 
-So we have :math:`n-2` linear equations to calculate the :math:`n` unknowns :math:`y''_i` for :math:`i = 1, \dots, n`. So we have to make a choice for the first and last values ​​and we will take them equal to zero. We can recognize the resolution of a system with a tridiagonal matrix. It is then easy to solve it by using the algorithm of Thomas which one recalls the principle
+So we have :math:`n-2` linear equations to calculate the :math:`n` unknowns :math:`y''_i` for :math:`i = 1, \dots, n`. So we have to make a choice for the first and last values and we will take them equal to zero. We can recognize the resolution of a system with a tridiagonal matrix. It is then easy to solve it by using the algorithm of Thomas which one recalls the principle
 
 .. math::
     c'_i=\left\{ 
