@@ -1,7 +1,7 @@
 name: packaging-environment
 channels:
-  - conda-forge
   - damianavila82
+  - conda-forge
 dependencies:
   - python=3.6
   - numpy
