@@ -5,7 +5,7 @@ def factorielle(n):
     calcul de n!
     
     >>> factorielle(0)
-    1
+    10
     >>> factorielle(5)
     120
     

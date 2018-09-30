@@ -42,7 +42,7 @@ setup(
     classifiers = CLASSIFIERS,
     packages = find_packages(exclude=["demos"]),
     install_requires = ["numpy",
-                        "matplotlib>=2",
+                        "matplotlib==2.1",
                         "six"],
     entry_points={ 'console_scripts': [
         'splinart=scripts.cli_splinart:main',
