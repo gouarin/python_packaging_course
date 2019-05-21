@@ -1,6 +1,6 @@
 # python_packaging_2017
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/gouarin/python_packaging_2017/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/gouarin/python_packaging_course/master)
 
 This repository contains all the stuff for a tutorial that I gave for the CNRS in November 2017. The slides are in French.
 
